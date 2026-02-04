@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;700&family=Playfair+Display:wght@500;700&family=Cairo:wght@400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Vintage Arabic palette */
+    --background: 37 43% 94%;
+    --foreground: 25 28% 18%;
+    --card: 38 35% 92%;
+    --card-foreground: 25 28% 18%;
+    --popover: 38 35% 92%;
+    --popover-foreground: 25 28% 18%;
+    --primary: 20 48% 38%;
+    --primary-foreground: 44 60% 95%;
+    --secondary: 43 38% 52%;
+    --secondary-foreground: 25 28% 18%;
+    --muted: 38 25% 85%;
+    --muted-foreground: 24 18% 38%;
+    --accent: 172 22% 36%;
+    --accent-foreground: 44 60% 95%;
+    --destructive: 5 55% 44%;
+    --destructive-foreground: 44 60% 95%;
+    --border: 35 30% 80%;
+    --input: 35 30% 80%;
+    --ring: 20 48% 38%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 24 22% 14%;
+    --foreground: 44 40% 92%;
+    --card: 24 22% 16%;
+    --card-foreground: 44 40% 92%;
+    --popover: 24 22% 16%;
+    --popover-foreground: 44 40% 92%;
+    --primary: 20 48% 58%;
+    --primary-foreground: 24 22% 10%;
+    --secondary: 43 28% 46%;
+    --secondary-foreground: 44 40% 92%;
+    --muted: 26 16% 28%;
+    --muted-foreground: 35 20% 68%;
+    --accent: 172 22% 46%;
+    --accent-foreground: 24 22% 12%;
+    --destructive: 5 55% 48%;
+    --destructive-foreground: 44 40% 92%;
+    --border: 26 18% 32%;
+    --input: 26 18% 32%;
+    --ring: 20 48% 58%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Noto Naskh Arabic', 'Cairo', 'Playfair Display', system-ui, sans-serif;
+  }
+}
