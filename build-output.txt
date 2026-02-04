@@ -1,0 +1,28 @@
+
+> shadow-seven-agency-box@4.0.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 2427 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                              1.22 kB │ gzip:   0.63 kB
+dist/assets/index-BmL7TZ06.css              32.53 kB │ gzip:   6.58 kB
+dist/assets/chart-vendor-Gr5MdMsR.js         0.41 kB │ gzip:   0.27 kB
+dist/assets/ui-vendor-ClYfUtZu.js            7.89 kB │ gzip:   2.92 kB
+dist/assets/SpecializedAgents-BthMZpLR.js    8.24 kB │ gzip:   3.76 kB
+dist/assets/nlp-utils-Cy6RdDhi.js            9.44 kB │ gzip:   4.14 kB
+dist/assets/purify.es-0Z5D63Xw.js           22.77 kB │ gzip:   8.62 kB
+dist/assets/geminiClient-DEU4pO_5.js        28.14 kB │ gzip:   6.79 kB
+dist/assets/index-B8300VHx.js               31.86 kB │ gzip:  11.45 kB
+dist/assets/UploadPage-HDzUIThS.js          34.17 kB │ gzip:  10.65 kB
+dist/assets/query-vendor-BjvN1hWN.js        50.44 kB │ gzip:  15.83 kB
+dist/assets/index-CP9bMGZ4.js               57.94 kB │ gzip:  16.91 kB
+dist/assets/jszip.min-D8pmTAJx.js           96.68 kB │ gzip:  28.62 kB
+dist/assets/index.es-CwrMshKH.js           148.91 kB │ gzip:  49.81 kB
+dist/assets/html2canvas.esm-BPY6V10C.js    198.70 kB │ gzip:  46.38 kB
+dist/assets/react-vendor-CFjDF6Pq.js       332.64 kB │ gzip: 102.19 kB
+dist/assets/Dashboard-DPyD6BNq.js          547.65 kB │ gzip: 129.64 kB
+dist/assets/ExportPage-K3TFn3C3.js         829.87 kB │ gzip: 240.28 kB
+✓ built in 18.30s
